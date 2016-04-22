@@ -15,7 +15,7 @@ SBG will have multiple AWS Accounts (aka infrastructure accounts) which is isola
 
 The HF Will require a TCP ACL inbound to IHP. An appropriate ACLs are put in place to let the splunk data port through from the Heavy Forwarder in DMZ to the Splunk indexer in IHP. Additional protection is provided by skyport ;delivering a zero-trust, hardened computing environment as well as a set of security controls that are customized for Splunk workloads and  traffic pattern. 
 
-![](/Users/amohammed/pictures/skyport.png)
+![](images/skyport.png)
 
 ###Pros:
 * Ability to quickly troubleshoot operational issus or respond to seucrity events , as logs from both locations are correlated in one place 
