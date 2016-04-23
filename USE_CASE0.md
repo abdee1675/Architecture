@@ -28,3 +28,4 @@ The HF Will require a TCP ACL inbound to IHP. An appropriate ACLs are put in pla
 ###Cons:
 * Increased latency due to the multiple channels the logs will travel from AWS to Splunk instances in IHP		
 * Additional ACLs to manage in ensuring communication between HF in AWS and HF in DMZ is secure.
+Additional content will be added once CST merge the pull request 
